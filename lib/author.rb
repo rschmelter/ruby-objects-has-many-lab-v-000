@@ -10,7 +10,7 @@ end
 
 def add_pos(post)
   @posts << post
-  post.author = self  
+  post.author = self
 end
 
 def add_post_by_title(title)
