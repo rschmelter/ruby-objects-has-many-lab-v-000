@@ -5,4 +5,8 @@ class Song
     @name = name
   end
 
+  def artists_name
+    song.artist
+  end
+
 end
